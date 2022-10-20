@@ -7,7 +7,7 @@ def get_filter_map():
     payload = {
         "file_name": "apache_logs.txt",
         "cmd1": "filter",
-        "value1": 123,
+        "value1": "POST",
         "cmd2": "map",
         "value2": "0",
     }
