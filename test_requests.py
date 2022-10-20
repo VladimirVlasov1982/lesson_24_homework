@@ -58,11 +58,11 @@ def get_all_parameters():
     print("")
 
 
-def get_regexp_sort():
+def get_regex_sort():
     url = "http://127.0.0.1:5000/perform_query"
     payload = {
         "file_name": "apache_logs.txt",
-        "cmd1": "regexp",
+        "cmd1": "regex",
         "value1": "images/\\w+\\.png",
         "cmd2": "sort",
         "value2": "asc",
@@ -70,7 +70,7 @@ def get_regexp_sort():
         "value3": "3"
     }
     response = requests.request("POST", url, data=payload)
-    print("===get_regexp_sort===")
+    print("===get_regex_sort===")
     print(response.text)
 
 
@@ -78,4 +78,4 @@ if __name__ == "__main__":
     get_filter_map()
     get_unique_map()
     get_all_parameters()
-    get_regexp_sort()
+    get_regex_sort()

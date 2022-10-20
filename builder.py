@@ -12,7 +12,7 @@ CMD_COMMAND: Dict[str, Any] = {
     "unique": functions.unique_query,
     "sort": functions.sorted_query,
     "limit": functions.limit_query,
-    "regexp": functions.get_regexp,
+    "regex": functions.get_regex,
 }
 
 

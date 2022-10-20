@@ -6,7 +6,7 @@
 app.py - приложение Flask
 builder.py - обработка запроса POST
 exceptions.py - исключения
-functions.py - выполнение команд filter, map, unique, sort, limit, regexp
+functions.py - выполнение команд filter, map, unique, sort, limit, regex
 test_requests.py - тестовые запросы
 папка data - содержит файл данных в формате txt
 ```

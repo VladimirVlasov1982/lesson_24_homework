@@ -37,6 +37,6 @@ def limit_query(param: str, data: Generator) -> list:
     return list(data)[:limit]
 
 
-def get_regexp(param: str, data: Generator) -> list:
+def get_regex(param: str, data: Generator) -> list:
     # Находим данные по заданным параметрам
     return list(filter(lambda item: re.search(param, item), data))
